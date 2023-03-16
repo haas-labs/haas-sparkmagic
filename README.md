@@ -323,3 +323,10 @@ poetry run pytest
 ```
 
 If you want to see an enhancement made but don't have time to work on it yourself, feel free to submit an [issue](https://github.com/jupyter-incubator/sparkmagic/issues) for us to deal with.
+
+## JupyterLab extensions install
+
+> Do not rebuild docker compose after jupyter/sparkmagic extending
+
+1. docker build -t jupyter/sparkmagic -f ./Dockerfile.extensions .
+2. docker compose up

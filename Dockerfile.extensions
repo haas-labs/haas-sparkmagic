@@ -1,0 +1,10 @@
+FROM jupyter/sparkmagic
+
+ARG dev_mode=false
+
+USER root
+
+RUN jupyter labextension install haas-data
+RUN jupyter lab build
+RUN jupyter labextension enable haas-data
+USER $NB_USER
