@@ -15,7 +15,7 @@
   "kernel_r_credentials": {
     "username": "",
     "password": "",
-    "url": "http://lighter.spark:8081/lighter/api"
+    "url": "http://lighter.spark:8080/lighter/api"
   },
 
   "logging_config": {
