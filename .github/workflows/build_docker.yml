@@ -16,7 +16,7 @@ jobs:
       matrix:
         include:
           - name: sparkmagic
-            tag: 0.0.2
+            tag: 0.0.3
     steps:
       - name: Checkout
         uses: actions/checkout@v3
