@@ -2,6 +2,12 @@
 
 ## Next Release
 
+## 0.20.5
+
+### Bug Fixes
+- Render the output of IPython.display.display_html as HTML
+- Pin to pandas<2.0.0
+
 ## 0.20.4
 
 ### Bug Fixes
