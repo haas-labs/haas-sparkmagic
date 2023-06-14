@@ -11,6 +11,7 @@ USER $NB_USER
 
 RUN pip install --upgrade pip
 RUN pip install --upgrade --ignore-installed setuptools
+RUN pip install boto3
 
 COPY examples /home/jovyan/work
 
